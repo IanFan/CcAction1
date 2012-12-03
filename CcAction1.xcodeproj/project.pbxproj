@@ -131,8 +131,12 @@
 		182DB91E166CC5E6005B4E4C /* vec4.c in Sources */ = {isa = PBXBuildFile; fileRef = 182DB91D166CC5E6005B4E4C /* vec4.c */; };
 		182DB923166CC5E6005B4E4C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 182DB922166CC5E6005B4E4C /* main.m */; };
 		182DB926166CC5E6005B4E4C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 182DB925166CC5E6005B4E4C /* AppDelegate.m */; };
-		182DB929166CC5E6005B4E4C /* HelloWorldLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 182DB928166CC5E6005B4E4C /* HelloWorldLayer.m */; };
-		182DB92C166CC5E6005B4E4C /* IntroLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 182DB92B166CC5E6005B4E4C /* IntroLayer.m */; };
+		182DB93F166CC66A005B4E4C /* IntroLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 182DB938166CC66A005B4E4C /* IntroLayer.m */; };
+		182DB940166CC66A005B4E4C /* SimpleActionLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 182DB93A166CC66A005B4E4C /* SimpleActionLayer.m */; };
+		182DB941166CC66A005B4E4C /* Cocos2dTemplateLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 182DB93C166CC66A005B4E4C /* Cocos2dTemplateLayer.m */; };
+		182DB942166CC66A005B4E4C /* ball.png in Resources */ = {isa = PBXBuildFile; fileRef = 182DB93D166CC66A005B4E4C /* ball.png */; };
+		182DB943166CC66A005B4E4C /* ball@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 182DB93E166CC66A005B4E4C /* ball@2x.png */; };
+		182DB945166CC6A7005B4E4C /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 182DB944166CC6A7005B4E4C /* Default-568h@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -394,10 +398,15 @@
 		182DB922166CC5E6005B4E4C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		182DB924166CC5E6005B4E4C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		182DB925166CC5E6005B4E4C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		182DB927166CC5E6005B4E4C /* HelloWorldLayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HelloWorldLayer.h; sourceTree = "<group>"; };
-		182DB928166CC5E6005B4E4C /* HelloWorldLayer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HelloWorldLayer.m; sourceTree = "<group>"; };
-		182DB92A166CC5E6005B4E4C /* IntroLayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IntroLayer.h; sourceTree = "<group>"; };
-		182DB92B166CC5E6005B4E4C /* IntroLayer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IntroLayer.m; sourceTree = "<group>"; };
+		182DB937166CC66A005B4E4C /* IntroLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IntroLayer.h; sourceTree = "<group>"; };
+		182DB938166CC66A005B4E4C /* IntroLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IntroLayer.m; sourceTree = "<group>"; };
+		182DB939166CC66A005B4E4C /* SimpleActionLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SimpleActionLayer.h; sourceTree = "<group>"; };
+		182DB93A166CC66A005B4E4C /* SimpleActionLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SimpleActionLayer.m; sourceTree = "<group>"; };
+		182DB93B166CC66A005B4E4C /* Cocos2dTemplateLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Cocos2dTemplateLayer.h; sourceTree = "<group>"; };
+		182DB93C166CC66A005B4E4C /* Cocos2dTemplateLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Cocos2dTemplateLayer.m; sourceTree = "<group>"; };
+		182DB93D166CC66A005B4E4C /* ball.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ball.png; sourceTree = "<group>"; };
+		182DB93E166CC66A005B4E4C /* ball@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ball@2x.png"; sourceTree = "<group>"; };
+		182DB944166CC6A7005B4E4C /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -458,10 +467,14 @@
 			children = (
 				182DB924166CC5E6005B4E4C /* AppDelegate.h */,
 				182DB925166CC5E6005B4E4C /* AppDelegate.m */,
-				182DB927166CC5E6005B4E4C /* HelloWorldLayer.h */,
-				182DB928166CC5E6005B4E4C /* HelloWorldLayer.m */,
-				182DB92A166CC5E6005B4E4C /* IntroLayer.h */,
-				182DB92B166CC5E6005B4E4C /* IntroLayer.m */,
+				182DB937166CC66A005B4E4C /* IntroLayer.h */,
+				182DB938166CC66A005B4E4C /* IntroLayer.m */,
+				182DB939166CC66A005B4E4C /* SimpleActionLayer.h */,
+				182DB93A166CC66A005B4E4C /* SimpleActionLayer.m */,
+				182DB93B166CC66A005B4E4C /* Cocos2dTemplateLayer.h */,
+				182DB93C166CC66A005B4E4C /* Cocos2dTemplateLayer.m */,
+				182DB93D166CC66A005B4E4C /* ball.png */,
+				182DB93E166CC66A005B4E4C /* ball@2x.png */,
 				182DB7AD166CC5E3005B4E4C /* Resources */,
 				182DB7C7166CC5E3005B4E4C /* libs */,
 				182DB920166CC5E6005B4E4C /* Supporting Files */,
@@ -472,6 +485,7 @@
 		182DB7AD166CC5E3005B4E4C /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				182DB944166CC6A7005B4E4C /* Default-568h@2x.png */,
 				182DB7AE166CC5E3005B4E4C /* Default.png */,
 				182DB7B0166CC5E3005B4E4C /* Default-Landscape~ipad.png */,
 				182DB7B2166CC5E3005B4E4C /* fps_images.png */,
@@ -895,6 +909,9 @@
 				182DB7C3166CC5E3005B4E4C /* Icon@2x.png in Resources */,
 				182DB7C6166CC5E3005B4E4C /* iTunesArtwork in Resources */,
 				182DB904166CC5E6005B4E4C /* ChangeLog in Resources */,
+				182DB942166CC66A005B4E4C /* ball.png in Resources */,
+				182DB943166CC66A005B4E4C /* ball@2x.png in Resources */,
+				182DB945166CC6A7005B4E4C /* Default-568h@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1007,8 +1024,9 @@
 				182DB91E166CC5E6005B4E4C /* vec4.c in Sources */,
 				182DB923166CC5E6005B4E4C /* main.m in Sources */,
 				182DB926166CC5E6005B4E4C /* AppDelegate.m in Sources */,
-				182DB929166CC5E6005B4E4C /* HelloWorldLayer.m in Sources */,
-				182DB92C166CC5E6005B4E4C /* IntroLayer.m in Sources */,
+				182DB93F166CC66A005B4E4C /* IntroLayer.m in Sources */,
+				182DB940166CC66A005B4E4C /* SimpleActionLayer.m in Sources */,
+				182DB941166CC66A005B4E4C /* Cocos2dTemplateLayer.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1112,6 +1130,7 @@
 				182DB931166CC5E6005B4E4C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
