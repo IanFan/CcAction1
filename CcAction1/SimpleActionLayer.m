@@ -281,7 +281,7 @@
 #pragma mark Init
 
 /*
- Target: Run many types of CCAction with the CCSrpite, know when the action started and finished.
+ Target: Run many types of CCAction with the CCSprite, know when the action started and finished.
  
  1. Set the ball, action menu, and information label
  2. Tap any CCMenuItem in CCMenu to make the sprite run the specific CCAction.
